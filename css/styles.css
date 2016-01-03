@@ -1,0 +1,185 @@
+/*BODY*/
+
+body {
+	background-color: #eee8cd;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+header{
+	background-color: #000;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/*FONTS*/
+
+h1 {
+	color: #fff;
+	width: 20%;
+	text-align: center;
+	padding: 20px;
+	margin-left: 30px;
+	text-shadow: 5px 3px 5px #3b3b3b;
+}
+
+h2 {
+	color: #000;
+	margin: 30px 0 40px 60px;
+}
+
+h3 {
+	color: #fff;
+	background-color: #000;
+	box-shadow: 0 0 40px #fff;
+	max-width: 100%;
+	padding: 15px;
+}
+
+/*NAVIGATION*/
+
+nav {
+	box-shadow: 0 0 10px #fff;
+	padding: 2px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+	margin: 60px;
+	padding: 20px;
+}
+
+a:hover {
+	color: #00ced1;
+}
+
+nav {
+    text-align: right;
+}
+
+/*SECTION*/
+
+.column1, .column2 {
+	float: left;
+	max-width: 49%;
+	margin: 40px 10px 20px 90px;
+	padding: 10px;
+}
+
+.column1 {
+	width: 400px;
+}
+
+.main_content {
+	width: 95%;
+	clear: both;
+	margin: 20px;
+	padding: 30px 0;
+}
+
+/*DONATE PAGE*/
+
+.donate_text {
+	max-width: 600px;
+	text-align: center;
+	margin: 40px auto;
+}
+
+.donate_button {
+    text-align: center;
+}
+
+.submit_button {
+    border: 3px solid #cd853f;
+    background-color: #ffa54f;
+    box-shadow: 0 0 10px #a0522d;
+}
+
+button {
+	margin: 20px 20px 30px 70px;
+	padding: 20px;
+	border-radius: 9%;
+	border: 3px solid #e9a663;
+	width: 120px;
+	height: 80px;
+	color: #fff;
+	background-color: #ffdf85; 
+    box-shadow: 0 0 10px #faa71a;
+}
+
+/*CONTACT PAGE*/
+
+.information, .contact {
+	float: left;
+	width: 550px;
+	text-align: left;
+	margin: 80px 0 120px 40px;
+}
+
+legend {
+	text-align: center;
+}
+
+label {
+	margin: 8px;
+}
+
+input {
+	margin: 8px 5px;
+}
+.media_img_info {
+	text-align: left;
+	margin: 5px;
+}
+
+/*IMAGES*/
+
+.main_img {
+	width: 100%;
+}
+
+.media_img{
+   clear: both;
+   margin-top: 20px;
+}
+
+.tiger_video {
+    box-shadow: 0 0 40px #000;
+    height: 350px;
+    width: 450px;
+    margin-top: 40px;
+}
+
+.twitter,  .fb{
+	border-radius: 99%;
+	width: 20px;	
+}
+
+.gallery {
+	width: 250px;
+	height: 200px;
+	border: 1px solid #fff;
+	box-shadow: 0 0 40px #000;
+	margin: 30px 5px;
+} 
+
+.media_img_contact {
+	text-align: right;
+	margin-right: 40px;
+}
+
+/*FOOTER*/
+
+footer {
+	text-align: center;
+	margin: 30px;
+	clear: both;
+}
